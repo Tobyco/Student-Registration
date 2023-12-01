@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register Form</title>
+  </head>
+
+  <body>
+
+    <!--header -->
+     <header>
+            <h1>Student Registration Form</h1>
+    </header>
+    <!--end header-->
+
+    <!--form section-->
+    <section>
+      <form>
+        <!-- first name-->
+        <section>
+          <label contenteditable="false">First name</label>
+  
+          <input type="text" placeholder="Enter first name" autofocus maxlength="15" required/>
+        </section>
+        <!--end of first name-->
+        <br/>
+  
+        <!--Last name-->
+        <section>
+          <label>Last Name</label>
+          <input type="text" placeholder="Enter Last name" autofocus maxlength="15" required/>
+        </section>
+        <!--end of last name-->
+        <br />
+  
+        <!--Fees-->
+        <section>
+          <label>Fees</label>
+          <input type="number" placeholder="Enter amount" autofocus />
+        </section>
+        <!--end of fees-->
+        <br />
+  
+        <!--Email-->
+        <section>
+          <label>Email</label>
+          <input type="email" placeholder="Enter Email" autofocus required/>
+        </section>
+        <!--end of email-->
+        <br />
+  
+        <!--Phone Number-->
+        <section>
+          <label>Tel</label>
+          <input type="tel" placeholder="Enter Phone number" required maxlength="13"/>
+        </section>
+        <!--end of phone number-->
+        <br />
+  
+        <!-- Address-->
+        <section>
+          <label> Address</label>
+          <textarea></textarea required>
+          </section>
+        <!--Address ends-->
+        <br />
+  
+        <!--Profile Picture-->
+        <section>
+          <label>Upload Photo</label>
+          <input type="file" />
+        </section>
+        <!--Profile Picture ends-->
+        <br />
+  
+        <!--Course Options-->
+        <div>
+          <label for="course">Select Course</label>
+          <select id="course">
+            <optgroup label="Computer Science Courses">
+              <option>Computer Science</option>
+              <option>Software Programing</option>
+              <option>Internet Assurance</option>
+              <option>Internet Security</option>
+            </optgroup>
+  
+            <optgroup label="Marketing Courses">
+              <option>Banking</option>
+              <option>YouTube Marketing</option>
+              <option>Internet Assurance</option>
+              <option>Facebook Marketing</option>
+              <option>SEO</option>
+            </optgroup>
+          </select>
+        </div>
+        <br />
+  
+        <!--Submit-->
+        <div><input type="submit" value="Submit" /></div>
+      </form>
+
+    </section>
+    <!--end form section--> 
+    </body>
+
+    <hr/>
+    <!--footer-->
+        <footer>
+          <b>Copyright @ 2022</b>
+        </footer>
+    <!--end footer-->
+</html>
